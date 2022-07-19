@@ -1,3 +1,4 @@
+from app.abc_classes import AbcNote
 from collections import UserDict
 import json
 from typing import List
@@ -8,7 +9,6 @@ class Field:
     def __init__(self, value):
         self._value = None
         self.value = value
-
 
     @property
     def value(self):
@@ -70,7 +70,8 @@ class Name(Field):
     def __str__(self):
         return f'{self.value}'
 
-class Note:
+
+class Note(AbcNote):
     """
     Class for instance Note
     """
@@ -108,7 +109,7 @@ class Note:
     def delete_tag(self, tag: Tag):
         """
         Validate and remove specific tag from the notebook
-        :param new_tag: Tag
+        :param tag: Tag
         """
         if not isinstance(tag, Tag):
             raise TypeError('\t Incorrect type of tag \n')

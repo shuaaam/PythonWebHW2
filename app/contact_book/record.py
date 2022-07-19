@@ -1,3 +1,4 @@
+from app.abc_classes import AbcRecord
 import re
 from datetime import datetime
 
@@ -60,12 +61,12 @@ class Birthday(Field):
         current_year = self.value.replace(year=day_now.year)
         if current_year > day_now:
             delta = current_year - day_now
-            return(f'You have left {delta.days} day(s) to next birthday!')
+            return f'You have left {delta.days} day(s) to next birthday!'
             # return delta
         else:
             next_b_day = current_year.replace(year=day_now.year + 1)
             delta = next_b_day - day_now
-            return(f'You have left {delta.days} day(s)to next birthday!')
+            return f'You have left {delta.days} day(s)to next birthday!'
             # return delta
 
 
@@ -143,7 +144,7 @@ class Email(Field):
                              "Example: example@***.***")
 
 
-class Record:
+class Record(AbcRecord):
     """
     Class for instance Record
     """
