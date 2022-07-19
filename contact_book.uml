@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/Users/oleksandramelnyk/prog/assistant/app/contact_book</OriginalElement>
+  <nodes>
+    <node x="469.75000000000006" y="1021.0">app.contact_book.record.Field</node>
+    <node x="300.00000000000006" y="1237.0">app.contact_book.record.Birthday</node>
+    <node x="1256.0" y="1021.0">app.contact_book.contactbook_menu.Session</node>
+    <node x="0.0" y="414.0">app.contact_book.contactbook.ContactBook</node>
+    <node x="62.0" y="0.0">collections.UserDict</node>
+    <node x="622.0" y="1270.0">app.contact_book.record.Name</node>
+    <node x="925.0" y="1270.0">app.contact_book.record.Phone</node>
+    <node x="438.0" y="0.0">app.contact_book.record.Record</node>
+    <node x="0.0" y="1270.0">app.contact_book.record.Email</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="app.contact_book.record.Email" target="app.contact_book.record.Field" relationship="REALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="140.0" y="1212.0" />
+      <point x="607.25" y="1212.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="app.contact_book.record.Name" target="app.contact_book.record.Field" relationship="REALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="763.5" y="1212.0" />
+      <point x="607.25" y="1212.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="app.contact_book.record.Phone" target="app.contact_book.record.Field" relationship="REALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="1068.0" y="1212.0" />
+      <point x="607.25" y="1212.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="app.contact_book.record.Birthday" target="app.contact_book.record.Field" relationship="REALIZATION">
+      <point x="0.0" y="-83.0" />
+      <point x="451.00000000000006" y="1212.0" />
+      <point x="607.25" y="1212.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="app.contact_book.contactbook.ContactBook" target="collections.UserDict" relationship="REALIZATION">
+      <point x="0.0" y="-281.0" />
+      <point x="0.0" y="182.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.45888966971187634" showDependencies="false" x="828.0" y="701.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+

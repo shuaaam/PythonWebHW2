@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/Users/oleksandramelnyk/prog/assistant/app/note_book</OriginalElement>
+  <nodes>
+    <node x="0.0" y="414.0">app.note_book.note_book.NoteBook</node>
+    <node x="516.0" y="867.0">app.note_book.note_book_menu.Session</node>
+    <node x="368.0" y="227.0">app.note_book.note_book.Name</node>
+    <node x="0.0" y="867.0">app.note_book.note_book.Note</node>
+    <node x="681.0" y="227.0">app.note_book.note_book.Text</node>
+    <node x="984.0" y="216.0">app.note_book.note_book.Tag</node>
+    <node x="27.0" y="0.0">collections.UserDict</node>
+    <node x="680.0" y="0.0">app.note_book.note_book.Field</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="app.note_book.note_book.Text" target="app.note_book.note_book.Field" relationship="REALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="app.note_book.note_book.NoteBook" target="collections.UserDict" relationship="REALIZATION">
+      <point x="0.0" y="-204.0" />
+      <point x="0.0" y="182.0" />
+    </edge>
+    <edge source="app.note_book.note_book.Name" target="app.note_book.note_book.Field" relationship="REALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="514.5" y="191.0" />
+      <point x="822.5" y="191.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="app.note_book.note_book.Tag" target="app.note_book.note_book.Field" relationship="REALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="1122.5" y="191.0" />
+      <point x="822.5" y="191.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5510548523206751" showDependencies="false" x="630.5" y="582.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+
