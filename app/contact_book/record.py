@@ -1,4 +1,3 @@
-from app.abc_classes import AbcRecord
 import re
 from datetime import datetime
 

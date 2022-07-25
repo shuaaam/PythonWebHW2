@@ -1,4 +1,3 @@
-from app.abc_classes import AbcNote
 from collections import UserDict
 import json
 from typing import List
